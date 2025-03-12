@@ -27,7 +27,7 @@ const Team = () => {
       name: "Shishir",
       role: "Co-Founder ",
       image: "https://res.cloudinary.com/doxoqdwpi/image/upload/v1741806431/co-founders/shishir_y41flq.jpg",
-      bio: "Leading the development of cutting-edge EV technology with expertise in advanced systems.",
+      bio: "Engineering next-gen EV solutions with a focus on performance and smart mobility.",
       social: {
         linkedin: "https://www.linkedin.com/in/shishir-chaurasiya/",
       }
