@@ -8,31 +8,28 @@ const Team = () => {
     {
       name: "Deeptansh",
       role: "Co-Founder & CEO",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
-      bio: "IIT Madras graduate with expertise in AI and sustainable energy solutions.",
+      image: "https://res.cloudinary.com/doxoqdwpi/image/upload/v1741806431/co-founders/deeptansh_cr6dre.jpg",
+      bio: "Revolutionizing the Indian EV sector with a bold vision and cutting-edge innovation for mass adoption.",
       social: {
-        linkedin: "#",
-        github: "#"
+        linkedin: "https://www.linkedin.com/in/deeptansh-nagrale-0645b9320/",
       }
     },
     {
       name: "Ravish",
       role: "Co-Founder & CTO",
-      image: "https://randomuser.me/api/portraits/men/41.jpg",
-      bio: "Machine learning expert from IIT Madras with a focus on predictive analytics.",
+      image: "https://res.cloudinary.com/doxoqdwpi/image/upload/v1741806432/co-founders/devravish_elhogk.jpg",
+      bio: "Leading the development of cutting-edge EV technology with expertise in advanced systems.",
       social: {
-        linkedin: "#",
-        github: "#"
+        linkedin: "https://www.linkedin.com/in/i-am-ravish/",
       }
     },
     {
       name: "Shishir",
-      role: "Co-Founder & COO",
-      image: "https://randomuser.me/api/portraits/men/55.jpg",
-      bio: "Operations and strategy specialist with background in renewable energy.",
+      role: "Co-Founder ",
+      image: "https://res.cloudinary.com/doxoqdwpi/image/upload/v1741806431/co-founders/shishir_y41flq.jpg",
+      bio: "Leading the development of cutting-edge EV technology with expertise in advanced systems.",
       social: {
-        linkedin: "#",
-        github: "#"
+        linkedin: "https://www.linkedin.com/in/shishir-chaurasiya/",
       }
     }
   ];
@@ -63,12 +60,10 @@ const Team = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
                     <div className="p-6 w-full">
                       <div className="flex justify-end space-x-3 mb-4">
-                        <a href={member.social.linkedin} className="text-white hover:text-wattzy-blue transition-colors">
+                        <a href={member.social.linkedin} target='_blank' className="text-white hover:text-wattzy-blue transition-colors">
                           <Linkedin className="h-5 w-5" />
                         </a>
-                        <a href={member.social.github} className="text-white hover:text-wattzy-blue transition-colors">
-                          <Github className="h-5 w-5" />
-                        </a>
+                        
                       </div>
                     </div>
                   </div>
