@@ -54,10 +54,13 @@ const Hero = () => {
               <div className="aspect-[16/9] bg-slate-100 flex items-center justify-center">
                 {/* This would ideally be a real image or animation */}
                 <div className="p-8 text-center">
-                  <div className="inline-flex p-4 rounded-full bg-wattzy-blue/10 mb-4">
-                    <Zap className="h-12 w-12 text-wattzy-blue animate-pulse-glow" />
+                  <div className="inline-flex">
+                      <img src={`https://res.cloudinary.com/doxoqdwpi/image/upload/v1742100610/co-founders/wattzy_v7yq3c.png`}
+                        alt="Wattzy Logo"
+                        className="h-48"
+                      />
                   </div>
-                  <h3 className="text-wattzy-dark mb-3">Intelligent EV Infrastructure</h3>
+                  <h3 className="text-wattzy-dark mb-3">An AI-powered EV Charging Marketplace</h3>
                   <p className="text-wattzy-gray">
                     Our AI algorithms identify optimal charging locations based on traffic patterns, power grid capacity, and user demand.
                   </p>

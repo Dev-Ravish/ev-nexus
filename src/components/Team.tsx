@@ -44,10 +44,10 @@ const Team = () => {
             and business development.
           </p>
         </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className='flex justify-center'>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
           {team.map((member, index) => (
-            <Card key={index} className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-300">
+            <Card key={index} className={`overflow-hidden  border-none shadow-lg hover:shadow-xl transition-all duration-300 lg:m-12`}>
               <CardContent className="p-0">
                 <div className="relative">
                   <div className="aspect-square overflow-hidden">
@@ -77,6 +77,7 @@ const Team = () => {
             </Card>
           ))}
         </div>
+        </div>
         
         <div className="mt-16 bg-white rounded-xl shadow-lg p-8">
           <h3 className="text-xl font-bold mb-4 text-center">Notable Achievements & Recognition</h3>
@@ -97,8 +98,8 @@ const Team = () => {
                 <div className="h-6 w-6 text-purple-500 flex items-center justify-center font-bold">2</div>
               </div>
               <div>
-                <h4 className="font-bold text-lg mb-1">IIT Madras Incubation</h4>
-                <p className="text-wattzy-gray text-sm">Backed by one of India's premier technical institutions</p>
+                <h4 className="font-bold text-lg mb-1">Exploring Partnerships</h4>
+                <p className="text-wattzy-gray text-sm">Engaging with companies for potential collaborations.</p>
               </div>
             </div>
             

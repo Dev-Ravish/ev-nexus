@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
-import { Zap, Menu, X } from "lucide-react";
+import { Zap, Menu, X, Image } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,8 +16,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a href="/" className="flex items-center space-x-2">
-              <Zap className="h-8 w-8 text-wattzy-blue" />
-              <span className="text-xl font-bold text-wattzy-dark">Wattzy</span>
+              <img src={`https://res.cloudinary.com/doxoqdwpi/image/upload/v1742100610/co-founders/wattzy_v7yq3c.png`}
+                alt="Wattzy Logo"
+                className="h-20"
+              />
+              
             </a>
           </div>
           

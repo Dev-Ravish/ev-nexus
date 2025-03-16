@@ -61,9 +61,7 @@ const HowItWorks = () => {
                 </div>
                 
                 {/* Feature visualization placeholder */}
-                <div className="bg-slate-100 rounded-lg p-4 h-40 flex items-center justify-center">
-                  <p className="text-wattzy-gray text-sm">Interactive visualization coming soon</p>
-                </div>
+                
               </CardContent>
             </Card>
           ))}
