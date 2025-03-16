@@ -53,11 +53,11 @@ const Hero = () => {
             <div className="relative bg-white rounded-lg shadow-xl overflow-hidden">
               <div className="aspect-[16/9] bg-slate-100 flex items-center justify-center">
                 {/* This would ideally be a real image or animation */}
-                <div className="p-8 text-center">
-                  <div className="inline-flex">
+                <div className="p-8 text-center flex flex-col items-center">
+                  <div className=" bg-gradient-to-r from-wattzy-blue to-wattzy-green rounded-xl max-w-fit p-1 mb-4">
                       <img src={`https://res.cloudinary.com/doxoqdwpi/image/upload/v1742100610/co-founders/wattzy_v7yq3c.png`}
                         alt="Wattzy Logo"
-                        className="h-48"
+                        className="h-48 rounded-xl bg-slate-100"
                       />
                   </div>
                   <h3 className="text-wattzy-dark mb-3">An AI-powered EV Charging Marketplace</h3>
