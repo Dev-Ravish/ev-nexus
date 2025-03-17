@@ -6,21 +6,21 @@ import { Linkedin, Github } from 'lucide-react';
 const Team = () => {
   const team = [
     {
-      name: "Deeptansh",
-      role: "Co-Founder",
-      image: "https://res.cloudinary.com/doxoqdwpi/image/upload/v1741806431/co-founders/deeptansh_cr6dre.jpg",
-      bio: "Revolutionizing the Indian EV sector with a bold vision and cutting-edge innovation for mass adoption.",
-      social: {
-        linkedin: "https://www.linkedin.com/in/deeptansh-nagrale-0645b9320/",
-      }
-    },
-    {
       name: "Ravish",
       role: "Co-Founder",
       image: "https://res.cloudinary.com/doxoqdwpi/image/upload/v1741806432/co-founders/devravish_elhogk.jpg",
       bio: "Leading the development of cutting-edge EV technology with expertise in advanced systems.",
       social: {
         linkedin: "https://www.linkedin.com/in/i-am-ravish/",
+      }
+    },
+    {
+      name: "Deeptansh",
+      role: "Co-Founder",
+      image: "https://res.cloudinary.com/doxoqdwpi/image/upload/v1741806431/co-founders/deeptansh_cr6dre.jpg",
+      bio: "Revolutionizing the Indian EV sector with a bold vision and cutting-edge innovation for mass adoption.",
+      social: {
+        linkedin: "https://www.linkedin.com/in/deeptansh-nagrale-0645b9320/",
       }
     },
     {
