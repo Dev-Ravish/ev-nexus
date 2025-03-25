@@ -106,7 +106,7 @@ const ProblemSolution = () => {
 
         {/* Visual flow */}
         <div className="mt-16 flex justify-center">
-          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
+          <div className="flex flex-col lg:flex-row items-center gap-4 md:gap-8">
             <div className="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-48 h-20">
               <p className="text-center font-medium">Problem Identification</p>
             </div>

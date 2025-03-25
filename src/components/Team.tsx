@@ -31,6 +31,15 @@ const Team = () => {
       social: {
         linkedin: "https://www.linkedin.com/in/shishir-chaurasiya/",
       }
+    },
+    {
+      name: "Amit",
+      role: "AI Engineer",
+      image:"https://res.cloudinary.com/doxoqdwpi/image/upload/v1742928867/co-founders/amit_g55ui6.png",
+      bio: "AI expert with a focus on developing intelligent systems for EV infrastructure.",
+      social: {
+        linkedin: "https://www.linkedin.com/in/amit-kumar-patra-0a8019233/",
+      }
     }
   ];
 
@@ -45,9 +54,9 @@ const Team = () => {
           </p>
         </div>
         <div className='flex justify-center'>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1 ">
           {team.map((member, index) => (
-            <Card key={index} className={`overflow-hidden  border-none shadow-lg hover:shadow-xl transition-all duration-300 lg:m-12`}>
+            <Card key={index} className={`overflow-hidden  border-none shadow-lg hover:shadow-xl transition-all duration-300 md:m-5`}>
               <CardContent className="p-0">
                 <div className="relative">
                   <div className="aspect-square overflow-hidden">
